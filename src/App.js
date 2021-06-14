@@ -2,16 +2,17 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  let screenWidth = window.innerWidth;
+
   const handleResize = (e) => {
-    console.log(e.target.innerWidth);
-    const ul = document.querySelector('ul');
+    let percentage = (e.target.innerWidth * 70) / screenWidth;
+    console.log(70 - percentage);
     const li = document.querySelectorAll('li');
       li.forEach((el, i) => {
-        console.log(el)
         if (i % 2 === 0) {
-          el.style.transform = "skewY(50deg)";
+          el.style.transform = `skewY(-${70 - percentage}deg)`;
         } else {
-          el.style.transform = "skewY(-50deg)";
+          el.style.transform = `skewY(${70 - percentage}deg)`;
         }
       })
 
