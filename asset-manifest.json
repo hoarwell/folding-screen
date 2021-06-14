@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/folding-screen/static/css/main.b8f14bdb.chunk.css",
-    "main.js": "/folding-screen/static/js/main.b339e503.chunk.js",
-    "main.js.map": "/folding-screen/static/js/main.b339e503.chunk.js.map",
+    "main.js": "/folding-screen/static/js/main.e963e52d.chunk.js",
+    "main.js.map": "/folding-screen/static/js/main.e963e52d.chunk.js.map",
     "runtime-main.js": "/folding-screen/static/js/runtime-main.9b6fd776.js",
     "runtime-main.js.map": "/folding-screen/static/js/runtime-main.9b6fd776.js.map",
     "static/js/2.18ba6c84.chunk.js": "/folding-screen/static/js/2.18ba6c84.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.9b6fd776.js",
     "static/js/2.18ba6c84.chunk.js",
     "static/css/main.b8f14bdb.chunk.css",
-    "static/js/main.b339e503.chunk.js"
+    "static/js/main.e963e52d.chunk.js"
   ]
 }
