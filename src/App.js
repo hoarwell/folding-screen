@@ -32,13 +32,13 @@ function App() {
         if( i === 2) {
           el.style.backgroundPositionX = `${init.even * 10}`;
         }
-        el.style.backgroundPositionX = `${i * 20}%`;
+        el.style.backgroundPositionX = `${i * 19}%`;
       } else { // odd
         el.style.backgroundRepeat = "no-repeat";
         if ( i === 0){
           el.style.backgroundPositionX = `${init.odd}`;
         }
-        el.style.backgroundPositionX = `${i * 20}%`;
+        el.style.backgroundPositionX = `${i * 19}%`;
       }
     })
   }
