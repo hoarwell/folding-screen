@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/folding-screen/static/css/main.89ad2607.chunk.css",
+    "main.js": "/folding-screen/static/js/main.e4679d8c.chunk.js",
+    "main.js.map": "/folding-screen/static/js/main.e4679d8c.chunk.js.map",
+    "runtime-main.js": "/folding-screen/static/js/runtime-main.9b6fd776.js",
+    "runtime-main.js.map": "/folding-screen/static/js/runtime-main.9b6fd776.js.map",
+    "static/js/2.5e0fcf94.chunk.js": "/folding-screen/static/js/2.5e0fcf94.chunk.js",
+    "static/js/2.5e0fcf94.chunk.js.map": "/folding-screen/static/js/2.5e0fcf94.chunk.js.map",
+    "index.html": "/folding-screen/index.html",
+    "static/css/main.89ad2607.chunk.css.map": "/folding-screen/static/css/main.89ad2607.chunk.css.map",
+    "static/js/2.5e0fcf94.chunk.js.LICENSE.txt": "/folding-screen/static/js/2.5e0fcf94.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b6fd776.js",
+    "static/js/2.5e0fcf94.chunk.js",
+    "static/css/main.89ad2607.chunk.css",
+    "static/js/main.e4679d8c.chunk.js"
+  ]
+}
