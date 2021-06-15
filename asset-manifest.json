@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/folding-screen/static/css/main.5fc7229c.chunk.css",
-    "main.js": "/folding-screen/static/js/main.14b6eb95.chunk.js",
-    "main.js.map": "/folding-screen/static/js/main.14b6eb95.chunk.js.map",
+    "main.css": "/folding-screen/static/css/main.fc1c6725.chunk.css",
+    "main.js": "/folding-screen/static/js/main.2f112c00.chunk.js",
+    "main.js.map": "/folding-screen/static/js/main.2f112c00.chunk.js.map",
     "runtime-main.js": "/folding-screen/static/js/runtime-main.9b6fd776.js",
     "runtime-main.js.map": "/folding-screen/static/js/runtime-main.9b6fd776.js.map",
-    "static/js/2.18ba6c84.chunk.js": "/folding-screen/static/js/2.18ba6c84.chunk.js",
-    "static/js/2.18ba6c84.chunk.js.map": "/folding-screen/static/js/2.18ba6c84.chunk.js.map",
+    "static/js/2.5e0fcf94.chunk.js": "/folding-screen/static/js/2.5e0fcf94.chunk.js",
+    "static/js/2.5e0fcf94.chunk.js.map": "/folding-screen/static/js/2.5e0fcf94.chunk.js.map",
     "index.html": "/folding-screen/index.html",
-    "static/css/main.5fc7229c.chunk.css.map": "/folding-screen/static/css/main.5fc7229c.chunk.css.map",
-    "static/js/2.18ba6c84.chunk.js.LICENSE.txt": "/folding-screen/static/js/2.18ba6c84.chunk.js.LICENSE.txt",
+    "static/css/main.fc1c6725.chunk.css.map": "/folding-screen/static/css/main.fc1c6725.chunk.css.map",
+    "static/js/2.5e0fcf94.chunk.js.LICENSE.txt": "/folding-screen/static/js/2.5e0fcf94.chunk.js.LICENSE.txt",
     "static/media/face.68ceed53.png": "/folding-screen/static/media/face.68ceed53.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b6fd776.js",
-    "static/js/2.18ba6c84.chunk.js",
-    "static/css/main.5fc7229c.chunk.css",
-    "static/js/main.14b6eb95.chunk.js"
+    "static/js/2.5e0fcf94.chunk.js",
+    "static/css/main.fc1c6725.chunk.css",
+    "static/js/main.2f112c00.chunk.js"
   ]
 }
