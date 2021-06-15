@@ -12,6 +12,7 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  white-space: pre-wrap;
 }
 
 li {
@@ -19,20 +20,5 @@ li {
   background-color: transparent;
   width: 200px;
   height: 90%;
+  transition: .1s;
 }
-
-/* li:nth-child(odd){
-  border-left: 1px solid black;
-}
-
-li:nth-child(even){
-  border-left :1px solid black;
-} */
-
-/* li:nth-child(odd):hover{
-  transform: skewY(50deg);
-}
-
-li:nth-child(even):hover{
-  transform: skewY(-50deg);
-} */
