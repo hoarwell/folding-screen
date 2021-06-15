@@ -4,9 +4,11 @@ import './App.css';
 
 function App() {
   const [init, setInit] = useState({
-    odd: 3,
-    even: 5,
+    odd: 40,
+    even: 60,
   });
+  console.log(init);
+
   let screenWidth = window.innerWidth;
 
   const handleResize = (e) => {
@@ -14,10 +16,8 @@ function App() {
     const li = document.querySelectorAll('li');
       li.forEach((el, i) => {
         if (i % 2 === 0) { //  even
-          console.log(70 - percentage)
           el.style.transform = `skewY(-${70 - percentage}deg)`;
         } else { // odd
-          console.log(70 - percentage)
           el.style.transform = `skewY(${70 - percentage}deg)`;
         }
       })
@@ -25,21 +25,20 @@ function App() {
 
   const initialize = () => {
     const li = document.querySelectorAll('li');
+
     li.forEach((el, i) => {
-      el.style.backgroundImage = `url(${face})`;
-      if (i % 2 === 0) { //  even
+        el.style.backgroundImage = "none";
         el.style.backgroundRepeat = "no-repeat";
-        if( i === 2) {
-          el.style.backgroundPositionX = `${init.even * 10}`;
+        el.style.backgroundPosition = "center";
+        if ( i === 2 ){
+          el.style.backgroundImage = `url(${face})`;
+          el.style.backgroundPositionX = `${i - 2.2}%`;
         }
-        el.style.backgroundPositionX = `${i * 19}%`;
-      } else { // odd
-        el.style.backgroundRepeat = "no-repeat";
-        if ( i === 0){
-          el.style.backgroundPositionX = `${init.odd}`;
+
+        if ( i > 2){
+          el.style.backgroundImage = `url(${face})`;
+          el.style.backgroundPositionX = `${i * 20 - 40}%`;
         }
-        el.style.backgroundPositionX = `${i * 19}%`;
-      }
     })
   }
 
