@@ -10,13 +10,12 @@ function App() {
     console.log(percentage)
     const li = document.querySelectorAll('li');
       li.forEach((el, i) => {
+        el.style.transform = `skewY(${-70 - percentage}deg)`;
         if (i % 2 === 0) { //  even
           el.style.transform = `skewY(-${70 - percentage}deg)`;
         } else { // odd
           el.style.transform = `skewY(${70 - percentage}deg)`;
         }
-
-
       })
   }
 
